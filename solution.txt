@@ -25,3 +25,17 @@ if __name__ == '__main__':
     z = int(input())
     n = int(input())
     listComprehenstion(x, y, z, n)
+
+======================Third Solution======================
+def addInTuple(num_elements):
+    elements = []
+    for i in range(num_elements):
+        elements.append(i)
+    
+    myTuple = tuple(elements)
+    print("Tuple: ", myTuple)
+    print("Tuple Hash: ", hash(myTuple))
+
+if __name__ == '__main__':
+    numElements = int(input("Enter number of elements: "))
+    addInTuple(numElements)
