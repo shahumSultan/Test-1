@@ -39,3 +39,15 @@ def addInTuple(num_elements):
 if __name__ == '__main__':
     numElements = int(input("Enter number of elements: "))
     addInTuple(numElements)
+
+======================Fourth Solution======================
+def joinSplit(string):
+    splitString = string.split()
+    joinString = '-'.join(string)
+
+    print(splitString)
+    print(joinString)
+
+if __name__ == '__main__':
+    string = input("Enter a string: ")
+    joinSplit(string)
