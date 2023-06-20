@@ -1,0 +1,8 @@
+======================First Solution======================
+def squareLoop(number):
+    for i in range(number):
+        print(i*i)
+
+if __name__ == '__main__':
+    n = int(input("Enter Value of n: ").strip())
+    squareLoop(n)
