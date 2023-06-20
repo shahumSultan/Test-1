@@ -13,4 +13,4 @@
 
 ######do not change these lines, only add functionalites if needed######
 if __name__ == '__main__':
-    n = int(input("Enter Value of n: ").strip())
+    n = int(input("Enter Value of n: "))
